@@ -35,12 +35,15 @@ En los esquemas de traduccion se utilizan 3 atributos: `tmp` para las operacione
 
 
 En el esquema de traduccion para la produccion `S -> W EOF` se imprime el codigo de 3 direcciones que trae el símbolo `W`, mientras que `W` es utilizado para la recursividad y poder reconocer múltiples ifs y asignaciones seguidos.
+
 ![Esquema1](Fase1/imagenes/Esquema1.PNG)
 
 El símbolo `V` reconoce las instrucciones if y las instrucciones de asignacion. Sus esquemas de traduccion se encargan de concatenar el codigo de 3 direcciones que puede haberse producido en el símbolo `W` y en el símbolo `ELSEIF`, para posteriormente ordenarlo y colocar las etiquetas de salida al final de la instruccion if.
+
 ![Esquema2](Fase1/imagenes/Esquema2.PNG)
 
 El símbolo `ELSEIF` se encarga de realizar la recursividad para los else if, pudiendo terminar en un else o simplemente en una llave `}`. En sus instrucciones, se encarga de generar las etiquetas de los saltos y en su atributo `salida` ir concatenando las etiquetas de salida, para que al finalizar se puedan imprimir.
+
 ![Esquema3](Fase1/imagenes/Esquema3.PNG)
 
 ## Cómo utilizar el programa
