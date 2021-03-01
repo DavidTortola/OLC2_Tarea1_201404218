@@ -27,7 +27,7 @@ Esta fase consiste en la construcción del código de 3 direcciones del lenguaje
 
 La gramática utilizada para el analizador es recursiva por la izquierda para un análisis ascendente. Reconoce sentencias if, recursivos else if y finalmente puede o no puede venir un else. Dentro de cada if, pueden venir otras sentencias if o asignaciones. Las asignaciones constan de un identificador seguido de un signo igual y posteriormente una expresion aritmética.
 
-![Gramatica](imagenes/Gramatica.png)
+![Gramatica](Fase1/imagenes/Gramatica.png)
 
 ### Esquemas de traduccion y atributos 
 
@@ -35,13 +35,13 @@ En los esquemas de traduccion se utilizan 3 atributos: `tmp` para las operacione
 
 
 En el esquema de traduccion para la produccion `S -> W EOF` se imprime el codigo de 3 direcciones que trae el símbolo `W`, mientras que `W` es utilizado para la recursividad y poder reconocer múltiples ifs y asignaciones seguidos.
-![Esquema1](imagenes/Esquema1.PNG)
+![Esquema1](Fase1/imagenes/Esquema1.PNG)
 
 El símbolo `V` reconoce las instrucciones if y las instrucciones de asignacion. Sus esquemas de traduccion se encargan de concatenar el codigo de 3 direcciones que puede haberse producido en el símbolo `W` y en el símbolo `ELSEIF`, para posteriormente ordenarlo y colocar las etiquetas de salida al final de la instruccion if.
-![Esquema2](imagenes/Esquema2.PNG)
+![Esquema2](Fase1/imagenes/Esquema2.PNG)
 
 El símbolo `ELSEIF` se encarga de realizar la recursividad para los else if, pudiendo terminar en un else o simplemente en una llave `}`. En sus instrucciones, se encarga de generar las etiquetas de los saltos y en su atributo `salida` ir concatenando las etiquetas de salida, para que al finalizar se puedan imprimir.
-![Esquema3](imagenes/Esquema3.PNG)
+![Esquema3](Fase1/imagenes/Esquema3.PNG)
 
 ## Cómo utilizar el programa
 
