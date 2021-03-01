@@ -55,12 +55,15 @@ El símbolo `ELSEIF` se encarga de realizar la recursividad para los else if, pu
 
 ## Ejemplos:
 
-1. ![Entrada1](Fase1/imagenes/Entrada1.PNG) \
-![Salida1](Fase1/imagenes/Salida1.PNG) 
-2. ![Entrada2](Fase1/imagenes/Entrada2.PNG) \
-![Salida2](Fase1/imagenes/Salida2.PNG) 
-3. ![Entrada3](Fase1/imagenes/Entrada3.PNG) \
-![Salida3](Fase1/imagenes/Salida3.PNG) 
-4. ![Entrada4](Fase1/imagenes/Entrada4.PNG) \
-![Salida4](Fase1/imagenes/Salida4.PNG) 
+1. Entrada: ![Entrada1](Fase1/imagenes/Entrada1.PNG) \
+Salida: ![Salida1](Fase1/imagenes/Salida1.PNG) 
+
+2. Entradda: ![Entrada2](Fase1/imagenes/Entrada2.PNG) \
+Salida: ![Salida2](Fase1/imagenes/Salida2.PNG) 
+
+3. Entrada: ![Entrada3](Fase1/imagenes/Entrada3.PNG) \
+Salida: ![Salida3](Fase1/imagenes/Salida3.PNG) 
+
+4. Entrada: ![Entrada4](Fase1/imagenes/Entrada4.PNG) \
+Salida: ![Salida4](Fase1/imagenes/Salida4.PNG) 
 
