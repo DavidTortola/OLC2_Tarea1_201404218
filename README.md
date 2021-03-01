@@ -15,9 +15,7 @@ Este proyecto es continuacion de [Examen Corto 2](https://github.com/DavidTortol
 
 El proyecto se divide en dos fases.
 
----
 # Fase 1
----
 
 Esta fase consiste en la construcción del código de 3 direcciones del lenguaje reconocido, utilizando la herramienta Jison y esquemas de traducción dirigidos por la sintaxis posfijo, sintetizando los valores hasta finalmente llegar al a raíz, donde se imprime en consola el código producido.
 
